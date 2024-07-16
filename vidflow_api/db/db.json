@@ -5,6 +5,18 @@
       "password": "$2a$10$zYp6sVv3JahRJdnFZ04kTuA0SsG5tDuX78zUYsSwOOnsxXIFliC6u",
       "user": "zzi",
       "id": 1
+    },
+    {
+      "email": "eu@mmm.com",
+      "password": "$2a$10$yhGGlyqJlrkprpilTS.kGOjy6/0fTSgcJ5IU9BMt0js/FwPAVnNk2",
+      "user": "eu",
+      "id": 2
+    },
+    {
+      "email": "mim@mmm.com",
+      "password": "$2a$10$T0KXZ4dfUzjrvu2htpGILORbRb1pG9Q11G0nMRw.kCfmkbuIdJcUu",
+      "user": "mim",
+      "id": 3
     }
   ],
   "videos": [
