@@ -14,7 +14,7 @@ class Register extends StatelessWidget {
   // final TextEditingController textEmailController = TextEditingController();
   // final TextEditingController textPasswordController = TextEditingController();
 
-  final RegisterController registerController = Get.put(RegisterController()) ;
+  final RegisterController registerController = Get.find<RegisterController>();
 
   @override
   Widget build(BuildContext context) {

@@ -17,6 +17,12 @@
       "password": "$2a$10$T0KXZ4dfUzjrvu2htpGILORbRb1pG9Q11G0nMRw.kCfmkbuIdJcUu",
       "user": "mim",
       "id": 3
+    },
+    {
+      "email": "dog@mmm.com",
+      "password": "$2a$10$gSGCX5/cepetFNoay2MX4OxhgPNlfMcN3ckbcR0Z9fKxZkO4W6XIG",
+      "user": "dog",
+      "id": 4
     }
   ],
   "videos": [
