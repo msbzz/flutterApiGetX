@@ -27,8 +27,8 @@
   ],
   "videos": [
     {
-      "url": "image.png",
-      "title": "titulo",
+      "thumbURL": "https://http.cat/images/301.jpg",
+      "title": "cats 1",
       "userId": 1,
       "id": 1
     },
@@ -43,6 +43,12 @@
       "userId": 2,
       "thumbURL": "https://images.dog.ceo/breeds/groenendael/n02105056_2639.jpg",
       "title": "more dogs 2"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "thumbURL": "https://http.cat/images/200.jpg",
+      "title": "cats"
     }
   ]
 }
