@@ -50,7 +50,7 @@ class RegisterController extends GetxController {
         "email": textEmailController.text,
         "password": textPasswordController.text
       };
-
+ 
       http.Response response =
           await http.post(uri, headers: headers, body: jsonEncode(body));
       if (response.statusCode == 200) {
