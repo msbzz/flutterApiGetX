@@ -62,7 +62,12 @@ class RegisterController extends GetxController {
         textPasswordController.clear();
         Get.to(()=>Dashboard());
       } else {
-        AppSnacks.getErrorLogin();
+        //AppSnacks.getErrorLogin();
+        Get.defaultDialog(
+          title:'Erro de login',
+          middleText:'Verifique suas informações de cadastro',
+          cancel: ElevatedButton(onPressed: ()=> Get.back(), child: const Icon(Icons.close)),
+        );
         throw jsonDecode(response.body);
       }
     } catch (e) {

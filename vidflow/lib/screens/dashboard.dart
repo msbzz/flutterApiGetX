@@ -19,9 +19,9 @@ class Dashboard extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.blueVoid,
       body: Padding(
-        padding: EdgeInsets.fromLTRB(16, 64, 16, 28),
+        padding: const EdgeInsets.fromLTRB(16, 64, 16, 28),
         child: Obx(
-          ()=>videosController.videoLoading.value?Center(child:CircularProgressIndicator(),)
+          ()=>videosController.videoLoading.value?const Center(child:CircularProgressIndicator(),)
           :videosController.videos.isEmpty? _EmptyDashboard():_FullDashboard(videosList:videosController.videos)
           ),
       ),
@@ -55,7 +55,7 @@ class _EmptyDashboard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     CustomButton(
-                      onTap: () {Get.to(() => Upload());},
+                      onTap: () {Get.to(() => Upload(),transition: Transition.cupertino);},
                       text: "Upload de vídeo",
                       icon: Icons.upload,
                     ),

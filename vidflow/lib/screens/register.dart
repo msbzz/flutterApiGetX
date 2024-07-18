@@ -9,11 +9,7 @@ import 'package:vidflow/utils/images.dart';
 
 class Register extends StatelessWidget {
   Register({super.key});
-  
-  // final TextEditingController textUserController = TextEditingController();
-  // final TextEditingController textEmailController = TextEditingController();
-  // final TextEditingController textPasswordController = TextEditingController();
-
+ 
   final RegisterController registerController = Get.find<RegisterController>();
 
   @override
@@ -91,7 +87,7 @@ class Register extends StatelessWidget {
                     Column(children: <Widget>[
                       const Text("Já possui uma conta?", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),),
                         TextButton(
-                          onPressed: () => Get.to(() => Login()),
+                          onPressed: () => Get.to(() => Login(),transition: Transition.leftToRight ),
                           child: Text(
                             "Faça seu login!",
                             style: TextStyle(
